@@ -1,0 +1,4 @@
+# Lightweight CI tests do not download the BANKING77 dataset or pre-trained weights.
+pytest>=8,<10
+numpy>=1.26,<3
+scikit-learn>=1.4,<2

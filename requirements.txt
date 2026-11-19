@@ -1,0 +1,9 @@
+# Full experiment; download a pre-trained BERT and BANKING77 at first run.
+# v4 Transformers is used to avoid unrelated v5 breaking changes.
+torch>=2.2,<3
+transformers>=4.46,<5
+datasets>=2.18,<5
+numpy>=1.26,<3
+pandas>=2.0,<3
+scikit-learn>=1.4,<2
+safetensors>=0.4
